@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart' as Words;
 import 'package:provider/provider.dart';
 import 'custom_text_styles.dart';
-import 'package:word_puzzle_batch8/word_provider.dart';
+
+import 'word_provider.dart';
 
 class WordPuzzleScreen extends StatefulWidget {
   const WordPuzzleScreen({Key? key}) : super(key: key);

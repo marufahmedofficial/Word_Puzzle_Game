@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:word_puzzle_batch8/word_provider.dart';
 
+import 'word_provider.dart';
 import 'word_puzzle_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Word Puzzle',
       darkTheme: ThemeData.dark(),
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
