@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart' as Words;
 import 'package:provider/provider.dart';
 import 'custom_text_styles.dart';
 
@@ -20,6 +19,7 @@ class _WordPuzzleScreenState extends State<WordPuzzleScreen> {
     return Scaffold(
       backgroundColor: Colors.blueGrey.shade900,
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: const Text('Word Puzzle'),
@@ -32,7 +32,7 @@ class _WordPuzzleScreenState extends State<WordPuzzleScreen> {
                 _quit(provider);
               },
               child: const Text('QUIT'),
-            ) : SizedBox(),
+            ) : const SizedBox(),
           ),
         ],
       ),
