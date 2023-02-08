@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'word_provider.dart';
-import 'word_puzzle_screen.dart';
 import 'package:provider/provider.dart';
+import 'package:word_puzzle/word_provider.dart';
+import 'word_puzzle_screen.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Word Puzzle',
+      title: 'Flutter Demo',
       darkTheme: ThemeData.dark(),
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
