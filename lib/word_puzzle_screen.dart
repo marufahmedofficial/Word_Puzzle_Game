@@ -30,7 +30,7 @@ class _WordPuzzleScreenState extends State<WordPuzzleScreen> {
                 _quit(provider);
               },
               child: const Text('QUIT'),
-            ) : SizedBox(),
+            ) : const SizedBox(),
           ),
         ],
       ),
