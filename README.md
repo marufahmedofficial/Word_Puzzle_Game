@@ -1,4 +1,4 @@
-# word_puzzle_batch8
+# word_puzzle
 
 A new Flutter project.
 
